@@ -14,8 +14,22 @@
         #print(user_word[i], end="")
 
 # Question 3
-for i in range(37, 1051):
-    if i % 2 == 0:
-        print(i)
+#for i in range(37, 1051):
+    #if i % 2 == 0:
+        #print(i)
+
+# Question 4
+user_input = ""
+final_string = ""
+my_list = []
+while user_input != "done":
+    user_input = input("Enter a letter (or type done): ")
+    if user_input != "done":
+        my_list.append(user_input)
+for i in range(len(my_list)):
+    final_string = final_string + my_list[i]
+print(final_string)
+    
+
 
 
