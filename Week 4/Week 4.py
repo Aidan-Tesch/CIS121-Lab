@@ -46,6 +46,7 @@ print(sum)
 '''
 
 # Question 6
+'''
 user_input = 0
 sum = 0
 while user_input >= 0:
@@ -53,5 +54,16 @@ while user_input >= 0:
     if user_input >= 0:
         sum += user_input
 print(sum)
+'''
+
+#Question 7
+n = 25
+while n > 1:
+    if n % 2 == 0:
+        n/=2
+    else:
+        n = 3*n + 1
+print(f'n = {n}')
+
 
 
