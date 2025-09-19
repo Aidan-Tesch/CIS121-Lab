@@ -79,7 +79,14 @@ if my_list[1] < my_list[2]:
 for i in range(len(my_list)):
     print(my_list[i])
 
+# Question 7
+knuts = int(input())
+sickles = int(knuts//29)
+kunts = (knuts % 29)
+if sickle > 17:
+    
 
+  
 
 
 
