@@ -56,7 +56,8 @@ while user_input >= 0:
 print(sum)
 '''
 
-#Question 7
+# Question 7
+'''
 n = 25
 while n > 1:
     if n % 2 == 0:
@@ -64,6 +65,10 @@ while n > 1:
     else:
         n = 3*n + 1
 print(f'n = {n}')
+'''
 
-
+# Question 8
+user_input = int(input())
+for i in range(1, user_input+1):
+    if
 
