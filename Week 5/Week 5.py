@@ -84,7 +84,7 @@ def convert_knuts(knuts):
 # Question 1
 def reverse_string(string):
    for i in range(len(string)-1, 0, -1):
-      new_string = string[i]
+      new_string += string[i]
    return new_string
 
 # Question 2
